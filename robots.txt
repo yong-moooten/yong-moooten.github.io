@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yong-moooten.github.io/sitemap.xml
