@@ -13,14 +13,16 @@ strong { font-weight:500; }
 .label { font-size:12px; letter-spacing:.3em; color:var(--muted); line-height:1.6; }
 
 .top { display:flex; justify-content:space-between; align-items:center; height:56px; padding:0 48px; font-size:13px; letter-spacing:.12em; }
-.top .name { font-family:var(--serif); font-weight:500; letter-spacing:.18em; }
+.top .name { font-family:var(--serif); font-weight:500; letter-spacing:.18em; display:flex; align-items:center; }
+.top .logo { width:16px; height:16px; margin-right:10px; }
 .top nav a { margin-left:28px; color:var(--muted); }
 .top nav a:hover { color:var(--ink); }
 
 /* cover: zhixin-391 full-bleed at its own 4:3, no text on the photo */
 .hero { position:relative; }
-.opening { padding:14px 48px 0; display:flex; flex-wrap:wrap; justify-content:space-between; column-gap:24px; row-gap:2px; }
+.opening { padding:14px 12px 0; display:flex; flex-wrap:wrap; justify-content:space-between; column-gap:24px; row-gap:2px; }
 .opening h1, .opening p { font-family:var(--sans); font-weight:400; font-size:12px; letter-spacing:.3em; color:var(--muted); line-height:1.6; }
+.opening p { letter-spacing:.04em; }
 .opening a:hover { color:var(--ink); }
 
 .wrap { width:var(--wrap); margin:0 auto; }
@@ -30,7 +32,7 @@ strong { font-weight:500; }
 .record h2 { font-weight:400; }
 .record p.muted { font-size:15px; margin-top:14px; }
 
-.cases { padding:110px 0 40px; }
+.cases { padding:220px 0 40px; }  /* record section removed 2026-11-17 (Lu): blank space only */
 .sec-head { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:56px; }
 .sec-head h2, .biz h2 { font-family:var(--serif); font-weight:500; font-size:34px; line-height:1.25; letter-spacing:.04em; }
 .cards { list-style:none; padding:0; display:grid; grid-template-columns:1fr 1fr; column-gap:96px; row-gap:96px; }
@@ -84,7 +86,7 @@ footer { padding:40px 48px 56px; border-top:1px solid var(--rule); font-size:12p
   .record, .biz { display:block; padding:64px 0; }
   .record .big { font-size:72px; margin-top:16px; }
   .biz .main { margin-top:20px; }
-  .cases { padding-top:64px; }
+  .cases { padding-top:112px; }
   .sec-head h2, .biz h2 { font-size:26px; }
   .sec-head { margin-bottom:32px; }
   .cards { display:block; }
