@@ -42,6 +42,9 @@ strong { font-weight:500; }
 .card p.desc { margin-top:10px; font-size:15px; color:#4a453e; max-width:30em; }
 .card a:hover h3 { text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:6px; }
 .card:nth-child(even) { margin-top:160px; }
+.more { margin-top:96px; font-size:15px; }
+.more a { border-bottom:1px solid var(--rule); }
+.more a:hover { border-bottom-color:currentColor; }
 
 .biz { display:grid; grid-template-columns:1fr 2fr; gap:48px; padding:96px 0; border-top:1px solid var(--rule); }
 .biz .side .label { margin-bottom:14px; }
