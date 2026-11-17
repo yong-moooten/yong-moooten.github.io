@@ -4,6 +4,9 @@
    (.bleed, .band-line) are redone against the same column. Below 900px nothing is overridden: original single column. */
 .top { display:flex; justify-content:space-between; align-items:center; height:56px; padding:0 48px; font-size:13px; letter-spacing:.12em; position:sticky; top:0; z-index:10; background:var(--bg); }
 .top a, .side-index a { border-bottom:0; }
+.case-main h1 { margin-left:-.06em; }
+[data-case="shixing-vienna"] .case-main h1 { margin-left:-.11em; }  /* 白: measured extra bearing, toned down by eye (Lu: -.17 too much) */
+[data-case="paizhu-studio"] .case-main h1 { margin-left:-.10em; }  /* 長: by eye, Lu asked for more */  /* optical: big serif title sits ~2-3px right of the small meta lines (Lu 2026-11-17) */
 .top .name { font-family:var(--serif); font-weight:500; letter-spacing:.18em; display:flex; align-items:center; }
 .top .logo { width:16px; height:16px; margin-right:10px; }
 .top nav a { margin-left:28px; color:var(--muted); }
